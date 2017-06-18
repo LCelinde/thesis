@@ -245,7 +245,7 @@ data_projects_new$FOGindex <- as.numeric(data_projects_new$FOGindex)
 #spelling
 library(hunspell)
 misspelled <- hunspell(data_projects_new$Description, 
-                                    ignore = c("Â", "app", "smartphone", "smartphones", 
+                                    ignore = c("Ã‚", "app", "smartphone", "smartphones", 
                                                "www", "TEG", "iOS", "UX", "DT", "colour", 
                                                "apps", "eBook", "programme", "Facebook", 
                                                "hashtags", "hashtag", "iPhone", "offline", 
@@ -255,7 +255,7 @@ misspelled <- hunspell(data_projects_new$Description,
                                                "FOV", "FPV", "Ghz", "GoPro", "Timeline", "AEMX", 
                                                "https", "youtube", "png", "http", "PlayStation"
                                                , "facebook", "iPad", "Powerleaf", "GPIO", "retweets"
-                                               , "Coldplay", "VWO", "Akido","TAXZI", "texting", "Ø",
+                                               , "Coldplay", "VWO", "Akido","TAXZI", "texting", "Ã˜",
                                                "MKD", "SEO", "Bluetooth", "nixie", "htm", "google", "dL"
                                                , "wikipedia", "Firebase", "ANE", "SMK", "GPS", "Javascript"
                                                , "EdCar", "WiFi", "Zoose"))
